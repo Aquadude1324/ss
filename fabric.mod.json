@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpclient",
+  "version": "1.0.0",
+  "name": "PvP Client Mod",
+  "description": "All-in-one PvP client mod with features from modern clients.",
+  "authors": [
+    "yourname"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.yourname.pvpclient.PvpClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.4"
+  }
+}
